@@ -21,3 +21,16 @@ LMS makes controlling all of this much easier, convenient and fast. Also, there 
 -	Insertion – for entering book, author information
 -	Updating – update existing information.
 -	ReportGeneration – show payments details for students.
+
+**More about technicial parts:**
+- As database used PostgreSql with backup TAR file
+- UML diagram is included
+- AOP, AspectJ, dependency injection
+- Transactionality, JPA, queries
+- REST API controllers: get, post, delete, put methods
+- JMS messaging for managing errors
+- Spring security, role based permissions
+
+**REST API controller endpoints**
+
+curl -X GET example(In progress)
