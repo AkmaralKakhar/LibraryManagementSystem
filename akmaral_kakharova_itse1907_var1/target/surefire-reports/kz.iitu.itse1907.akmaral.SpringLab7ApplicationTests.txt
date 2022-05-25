@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: kz.iitu.itse1907.akmaral.SpringLab7ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.855 s <<< FAILURE! - in kz.iitu.itse1907.akmaral.SpringLab7ApplicationTests
+testFindAll  Time elapsed: 0.129 s  <<< ERROR!
+java.lang.NullPointerException
+	at kz.iitu.itse1907.akmaral.SpringLab7ApplicationTests.testFindAll(SpringLab7ApplicationTests.java:67)
+
