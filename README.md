@@ -32,5 +32,34 @@ LMS makes controlling all of this much easier, convenient and fast. Also, there 
 - Spring security, role based permissions
 
 **REST API controller endpoints**
+**REST API controller endpoints**
 
-curl -X GET example(In progress)
+curl -X GET http://localhost:8080/book/allBooks <br>
+curl -X POST http://localhost:8080/book/addBook <br>
+curl -X DEL http://localhost:8080/book/deleteBook/1 <br>
+curl -X PUT http://localhost:8080/book/updateBook/2 <br>
+curl -X GET http://localhost:8080/profile/allProfiles <br>
+curl -X POST http://localhost:8080/profile/addProfile <br>
+curl -X DEL http://localhost:8080/profile/deleteProfile/1 <br>
+curl -X PUT http://localhost:8080/profile/updateaddProfile/2 <br>
+curl -X GET http://localhost:8080/book/getBooksByProfile <br>
+curl -X POST http://localhost:8080/jms/sendMessage/checkJMS <br>
+curl -X GET http://localhost:8080/jms/receiveMessage <br>
+
+[//]: # (curl -X GET http://localhost:8080/book/findByAuthor <br>)
+
+[//]: # (curl -X GET http://localhost:8080/book/findByGenre <br>)
+
+[//]: # (curl -X GET http://localhost:8080/book/findByPublishedYear <br>)
+
+[//]: # (curl -X GET http://localhost:8080/book/findById <br>)
+
+[//]: # (curl -X GET http://localhost:8080/profile/findAll <br>)
+
+[//]: # (curl -X GET http://localhost:8080/profile/findByFname <br>)
+
+[//]: # (curl -X GET http://localhost:8080/profile/findByFnameAndLname <br>)
+
+[//]: # (curl -X GET http://localhost:8080/profile/findByAge <br>)
+
+[//]: # (curl -X GET http://localhost:8080/profile/findByLogin <br>)
